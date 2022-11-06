@@ -25,8 +25,6 @@ class Explosion {
                 if (matrix[y][x] == character) {
                     found.push(this.directions[i]);
                 }
-
-
             }
         }
         return found;
